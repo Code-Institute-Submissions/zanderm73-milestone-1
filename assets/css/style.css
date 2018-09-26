@@ -1,10 +1,5 @@
 
-
 /*----------------body/header*/
-.html {
-    background-color: blue;
-}
-
 
 #body {
     background-color: black;
@@ -16,10 +11,13 @@
     padding: 5;
 }
 
+/*----------------body/header/navbar*/
+
 .menuitem {
     background-color: black;
     text-align: center;
     padding: 5px;
+    font-weight: bold;
 }
 
 .menuitem a {
@@ -61,35 +59,8 @@
     z-index: -2;
 }
 
-/*----------------body/section*/
-
-.section {
-    background-color: black;
-    color: #93CEBC;
-    padding: 0;
-    
-}
-
-/*----------------video*/
-
-.iframe-container {
-  position: relative;
-  
-  padding-bottom: 56.25%; 
-  height: 0;
-  max-height: 30em;
-  max-width: 60em;
-}
-
-.iframe-container iframe{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
 /*----------------footer*/
+
 footer {
     text-align: center;
     background-color: black;
@@ -118,4 +89,108 @@ footer {
 
 .social-links li a i:hover {
     background: #D99543;
+}
+
+.general-sub {
+    color: #D99543;
+}
+
+
+/*----------------index/body/section*/
+
+.section {
+    background-color: black;
+    color: #93CEBC;
+    padding: 0;
+}
+
+.fan-message {
+    padding-bottom: 20px;
+}
+
+
+
+.embed-responsive-item {
+    max-height: 95%;
+}
+
+.performance-block {
+    text-align: center;
+    padding-bottom: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.latest-song {
+    padding-bottom: 20px;
+}
+
+.next-tour {
+    padding-bottom: 20px;
+}
+
+.email-form {
+    padding-top: 10px;
+}
+
+#emailaddress {
+    max-width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    color: black;
+    background-color: #93CEBC;
+    border: 0;
+    padding-bottom: 5px;
+}
+
+button[type="submit"] {
+    background-color: #D99543;
+    color: white;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+
+@media(min-width: 992px) {
+    #emailaddress {
+        max-width: 40%;
+    }
+}
+
+/*----------------youtube-video*/
+
+.embed-responsive-item {
+    max-height: 95%;
+}
+
+.performance-block {
+    text-align: center;
+
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+/*------------tour dates/body/section*/
+
+.album-intro {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tour-date-title {
+    margin-bottom: 20px;
+}
+
+.tour-date {
+    color: #D99543;
+    margin-top: 30px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.tour-location {
+    font-size: larger;
 }
